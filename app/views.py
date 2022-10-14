@@ -8,4 +8,4 @@ def home():
 
 @views.route('/intro')
 def intro():
-    return render_template("base.html")
+    return render_template("intro.html")
