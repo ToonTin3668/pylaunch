@@ -3,6 +3,7 @@ body {
     padding: 0;
     margin: 0;
     min-width: 700px;
+
 }
 
 .topBlock {
@@ -22,6 +23,10 @@ body {
     border: none;
 }
 
+.iconButton:hover{
+    border-radius: 30%;
+}
+
 .divcontent {
     align-self: center;
     position: absolute;
@@ -32,4 +37,8 @@ body {
     margin: 0%;
     top: 10px;
     min-width: 500px;
+}
+
+.versionInfo {
+    text-align: center;
 }
