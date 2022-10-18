@@ -32,8 +32,9 @@ body {
 }
 
 .divcontent {
-    position: grid;
+    position: absolute;
     left:25%; 
+    top: -20px;
 }
 
 .h2Heads {
