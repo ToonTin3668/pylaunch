@@ -58,3 +58,9 @@ body {
     border: 0px;
     font-size: medium;
 }
+
+.CC {
+    color: aquamarine;
+    position: fixed;
+    bottom: 0px;
+}
