@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="topBlock"><form><input name="docsButton" value="Docs" class="docsButton" type="submit"></form><form method="post" action="/"><input name="iconButton" value="iconbtn" class="iconButton" type="submit"></form>{% block divcontent %}{% endblock %}</div>
+    <div class="topDiv"><form><input action="/intro" name="docsButton" value="Docs" class="docsButton" type="submit" method="post"></form><form method="post" action="/"><input name="iconButton" value="iconbtn" class="iconButton" type="submit"></form>{% block divcontent %}{% endblock %}</div>
     {% block content %}
     {% endblock %}
 </body>

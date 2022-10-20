@@ -1,0 +1,35 @@
+body {
+    background: rgb(160, 160, 160);
+    padding: 0;
+    margin: 0;
+    min-width: 1000px;
+}
+
+.divcontent {
+    position: absolute;
+    left: 25%;
+    top: -20px;
+}
+
+.topDiv {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(90, 49, 111);
+    border-bottom: 10px;
+    border-bottom-color: currentcolor;
+    border-bottom-color: white;
+    min-width: 700px;
+}
+
+.iconButton {
+    background-image: url("../pictures/pylaunch icon.png");
+    background-color: transparent;
+    image-rendering: crisp-edges;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 40%;
+    color: transparent;background: url("../pictures/pylaunch icon.png");
+}

@@ -6,10 +6,10 @@ body {
 
 }
 
-.topBlock {
+.topDiv {
     width: 100%;
     height: 50px;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(90, 49, 111);
     border-bottom: 10px;
     border-bottom-color: white;
     min-width: 700px;
@@ -24,11 +24,14 @@ body {
     width: 50px;
     height: 50px;
     border: none;
+    border-radius: 40%;
     color: transparent;
 }
 
 .iconButton:hover{
-    border-radius: 30%;
+    border: 1px;
+    border-style:solid ;
+    border-color: orange;
 }
 
 .divcontent {
