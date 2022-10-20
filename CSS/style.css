@@ -23,13 +23,9 @@ body {
 
 .iconButton {
     background-image: url("../pictures/pylaunch icon.png");
-    background-color: transparent;
     image-rendering: crisp-edges;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px;
     border: none;
     border-radius: 40%;
     color: transparent;background: url("../pictures/pylaunch icon.png");
+    background-repeat: no-repeat;
 }
